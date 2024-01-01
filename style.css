@@ -959,8 +959,9 @@ header.scrolled .shop-page button:hover {
 .footer-left .details-description {
     margin: 0;
     padding: 0;
+    min-width: 200px;
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 16px;
     font-family: var(--twfont);
     line-height: 1.5;
@@ -1081,7 +1082,9 @@ header.scrolled .shop-page button:hover {
         margin-top: 0;
     }
     .footer-left .details-description {
-        width: 350px;
+        min-width: 350px;
+        margin-left: 25px;
+        margin-right: 25px;
         font-size: 12px;
         line-height: 1.15;
     }

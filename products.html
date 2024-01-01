@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compaible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TOPICSwoodworks | HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="notextlogo.png">
+</head>
+
+<body>
+    <!-- Header and Navbar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="home-link">
+                <a href="index.html"><button>HOME</button></a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <img class="logo" src="notextlogo.png">
+                    <li><a href="guide.html">SELECTION</a></li>
+                </ul>
+            </div>
+            <div class="shop-page">
+                <a href="https://www.etsy.com/shop/TOPICSwoodworks" target="_blank"><button>SHOP</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <div class="space"></div>
+        <div class="title">
+            <img src="notextlogo.png">
+            <h1>PRODUCTS</h1>
+        </div>
+        <div class="product-nav">
+            <a href="#apparel"><button>APPAREL</button></a>
+            <a href="#tables"><button>TABLES</button></a>
+            <a href="#pedestals"><button>PEDESTALS AND HARDWARE</button></a>
+            <a href="#sink-covers"><button>SINK COVERS</button></a>
+            <a href="#stove-covers"><button>STOVE COVERS</button></a>
+            <a href="#storage-ideas"><button>STORAGE IDEAS</button></a>
+        </div>
+        <div class="product-selection">
+            <div class="transition-space-one" id="apparel"></div>
+            <h2 class="apparel-title">APPAREL</h2>
+            <div class="apparel">
+                <p>Most apparel we sell varies from a low price of $27.50 to $49.50. The apparel we sell is made to order, so please provide the details listed below for an accurate quote. <a href="mailto:tayfun.ozbaki@hotmail.com">Contact us</a> to get your own custom apparel today!</p>
+                <ul>
+                    <li>Camper Name</li>
+                    <li>BRN #</li>
+                    <li>Shipping Zip Code</li>
+                    <li>Quantity, Size, Color, and Type of Apparel</li>
+                    <li>Camper model you would like on your apparel</li>
+                </ul>
+                <!-- Note that you must fill out the form multiple times for different products. -->
+                <div class="form-and-images">
+                    <!-- <div class="apparel-order-form">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="subject-apparel" value="New Apparel Order!">
+                            <input type="hidden" name="access_key" value="6dd5865a-d916-485e-8513-bc7e84e642ac">
+                            <fieldset>
+                                <legend>APPAREL ORDER FORM</legend>
+                                <h3>PERSONAL DETAILS</h3>
+                                <div class="personal-detail">
+                                    <input class="name tb" type="text" placeholder="Name" required>
+                                    <input class="email tb" type="email" placeholder="Email" required>
+                                    <input class="zip tb" type="text" placeholder="Zip Code" required>
+                                </div>
+                                <h3>APPAREL DETAILS</h3>
+                                <div class="design-detail">
+                                    <input class="camper-name tb" type="text" placeholder="Camper Name" required>
+                                    <input class="brn-num tb" type="number" placeholder="BRN #" required>
+                                    <input class="camper-model tb" type="text" placeholder="Camper Model" required>
+                                </div>
+                                <div class="apparel-details">
+                                    <div class="apparel-details-one">
+                                        <h4 class="type">Type</h4>
+                                        <input class="type-select" type="radio" id="short-sleeve-shirt" value="short-sleeve-shirt" name="type">
+                                        <label for="short-sleeve-shirt">Short Sleeve Shirt</label><br>
+                                        <input class="type-select" type="radio" id="long-sleeve-shirt" value="long-sleeve-shirt" name="type">
+                                        <label for="long-sleeve-shirt">Long Sleeve Shirt</label><br>
+                                        <input class="type-select" type="radio" id="polo" value="polo" name="type">
+                                        <label for="polo">Polo</label><br>
+                                        <input class="type-select" type="radio" id="hoodie" value="hoodie" name="type">
+                                        <label for="hoodie">Hoodie</label><br>
+                                        <input class="type-select" type="radio" id="sweatshirt" value="sweatshirt" name="type">
+                                        <label for="sweatshirt">Sweatshirt</label>
+                                        <h4 class="color">Color</h4>
+                                        <input list="color-choices" id="colors" class="color-choice tb" placeholder="Color">
+                                        <datalist id="color-choices">
+                                            <option value="White"></option>
+                                            <option value="Cream"></option>
+                                            <option value="Gray"></option>
+                                            <option value="Dark Gray"></option>
+                                            <option value="Black"></option>
+                                            <option value="Blue"></option>
+                                            <option value="Navy Blue"></option>
+                                            <option value="Green"></option>
+                                        </datalist>
+                                    </div>
+                                    <div class="apparel-details-two">
+                                        <h4>Quantity and Size</h4>
+                                        <div class="size-flexbox">
+                                            <div class="col-one">
+                                                <div class="labels">
+                                                    <label>XS:</label>
+                                                    <label>S:</label>
+                                                    <label>M:</label>
+                                                </div>
+                                                <div class="inputs">
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                </div>
+                                            </div>
+                                            <div class="col-two">
+                                                <div class="labels">
+                                                    <label>L: </label>
+                                                    <label>XL: </label>
+                                                    <label>XXL: </label>
+                                                </div>
+                                                <div class="inputs">
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                    <input class="size tb" type="number" placeholder="#"><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="messagebox">
+                                    <label><textarea class="message ta" name="description" cols="70" rows="15" placeholder="Message"></textarea></label>
+                                </div>
+                                <input class="submit-button" type="submit" value="SUBMIT">
+                            </fieldset>
+                        </form>
+                    </div> -->
+                    <div class="apparel-images">
+                        <img src="apparel-images/apparel-image.png" alt="apparel">
+                    </div>
+                </div>
+            </div>
+            <div class="transition-space-two" id="tables"></div>
+            <div class="tables">
+                <h1>TABLES</h1>
+                <p>We make custom main alley tables for your airstream trailer! <a href="#footer">Contact us</a> to order a custom table, or scroll down to the bottom of the website and fill out the contact form in the footer.</p>
+                <div class="slideshow-container">
+                    <div class="slideOne slide fade">
+                      <img src="tables-images/image1.png"style="width:100%">
+                    </div>
+                    <div class="slideOne slide fade">
+                      <img src="tables-images/image2.png" style="width:100%">
+                    </div>
+                    <div class="slideOne slide fade">
+                      <img src="tables-images/image3.png" style="width:100%">
+                    </div>
+                    <div class="slideOne slide fade">
+                        <img src="tables-images/image4.png" style="width:100%">
+                    </div>
+                    <div class="slideOne slide fade">
+                        <img src="tables-images/image5.png" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlidesOne(-1)"><i class="fa-solid fa-caret-left"></i></a>
+                    <a class="next" onclick="plusSlidesOne(1)"><i class="fa-solid fa-caret-right"></i></a>
+                    <br>
+                    <div class="dots" style="text-align:center">
+                        <span class="dotOne dot" onclick="currentSlideOne(1)"></span>
+                        <span class="dotOne dot" onclick="currentSlideOne(2)"></span>
+                        <span class="dotOne dot" onclick="currentSlideOne(3)"></span>
+                        <span class="dotOne dot" onclick="currentSlideOne(4)"></span>
+                        <span class="dotOne dot" onclick="currentSlideOne(5)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-space-three" id="pedestals"></div>
+            <div class="pedestals">
+                <h1>PEDESTALS AND HARDWARE</h1>
+                <p>We make custom pedestals and hardware for your tables, doors, and cabinets in your airstream trailer! <a href="#footer">Contact us</a> to order some pedestals and hardware, or scroll down to the bottom of the website and fill out the contact form in the footer.</p>
+                <div class="slideshow-container">
+                    <div class="slideTwo slide fade">
+                      <img src="pedestals-images/image1.png"style="width:100%">
+                    </div>
+                    <div class="slideTwo slide fade">
+                      <img src="pedestals-images/image2.png" style="width:100%">
+                    </div>
+                    <div class="slideTwo slide fade">
+                      <img src="pedestals-images/image3.png" style="width:100%">
+                    </div>
+                    <div class="slideTwo slide fade">
+                        <img src="pedestals-images/image4.png" style="width:100%">
+                    </div>
+                    <div class="slideTwo slide fade">
+                        <img src="pedestals-images/image5.png" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlidesTwo(-1)"><i class="fa-solid fa-caret-left"></i></a>
+                    <a class="next" onclick="plusSlidesTwo(1)"><i class="fa-solid fa-caret-right"></i></a>
+                    <br>
+                    <div class="dots" style="text-align:center">
+                        <span class="dotTwo dot" onclick="currentSlideTwo(1)"></span>
+                        <span class="dotTwo dot" onclick="currentSlideTwo(2)"></span>
+                        <span class="dotTwo dot" onclick="currentSlideTwo(3)"></span>
+                        <span class="dotTwo dot" onclick="currentSlideTwo(4)"></span>
+                        <span class="dotTwo dot" onclick="currentSlideTwo(5)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-space-two" id="sink-covers"></div>
+            <div class="sink-covers">
+                <h1>SINK COVERS</h1>
+                <p>We make custom sink covers for the sinks inside your airstream trailer! <a href="#footer">Contact us</a> to order a sink cover, or scroll down to the bottom of the website and fill out the contact form in the footer.</p>
+                <div class="slideshow-container">
+                    <div class="slideThree slide fade">
+                      <img src="sink-covers-images/image1.png"style="width:100%">
+                    </div>
+                    <div class="slideThree slide fade">
+                      <img src="sink-covers-images/image2.png" style="width:100%">
+                    </div>
+                    <div class="slideThree slide fade">
+                      <img src="sink-covers-images/image3.png" style="width:100%">
+                    </div>
+                    <div class="slideThree slide fade">
+                        <img src="sink-covers-images/image4.png" style="width:100%">
+                    </div>
+                    <div class="slideThree slide fade">
+                        <center><img src="sink-covers-images/image5.png" style="width:90%"></center>
+                    </div>
+                    <a class="prev" onclick="plusSlidesThree(-1)"><i class="fa-solid fa-caret-left"></i></a>
+                    <a class="next" onclick="plusSlidesThree(1)"><i class="fa-solid fa-caret-right"></i></a>
+                    <br>
+                    <div class="dots" style="text-align:center">
+                        <span class="dotThree dot" onclick="currentSlideThree(1)"></span>
+                        <span class="dotThree dot" onclick="currentSlideThree(2)"></span>
+                        <span class="dotThree dot" onclick="currentSlideThree(3)"></span>
+                        <span class="dotThree dot" onclick="currentSlideThree(4)"></span>
+                        <span class="dotThree dot" onclick="currentSlideThree(5)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-space-three" id="stove-covers"></div>
+            <div class="stove-covers">
+                <h1>STOVE COVERS</h1>
+                <p>We make custom stove covers for the stoves inside your airstream trailer! <a href="#footer">Contact us</a> to order a stove cover, or scroll down to the bottom of the website and fill out the contact form in the footer.</p>
+                <div class="slideshow-container">
+                    <div class="slideFour slide fade">
+                      <center><img src="stove-covers-images/image1.png"style="width:90%"></center>
+                    </div>
+                    <div class="slideFour slide fade">
+                      <center><img src="stove-covers-images/image2.png" style="width:90%"></center>
+                    </div>
+                    <div class="slideFour slide fade">
+                      <img src="stove-covers-images/image3.png" style="width:100%">
+                    </div>
+                    <div class="slideFour slide fade">
+                        <img src="stove-covers-images/image4.png" style="width:100%">
+                    </div>
+                    <div class="slideFour slide fade">
+                        <img src="stove-covers-images/image5.png" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlidesFour(-1)"><i class="fa-solid fa-caret-left"></i></a>
+                    <a class="next" onclick="plusSlidesFour(1)"><i class="fa-solid fa-caret-right"></i></a>
+                    <br>
+                    <div class="dots" style="text-align:center">
+                        <span class="dotFour dot" onclick="currentSlideFour(1)"></span>
+                        <span class="dotFour dot" onclick="currentSlideFour(2)"></span>
+                        <span class="dotFour dot" onclick="currentSlideFour(3)"></span>
+                        <span class="dotFour dot" onclick="currentSlideFour(4)"></span>
+                        <span class="dotFour dot" onclick="currentSlideFour(5)"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-space-two" id="storage-ideas"></div>
+            <div class="storage-ideas">
+                <h1>STORAGE SOLUTIONS</h1>
+                <p>Need a storage space for something inside your airstream trailer? Well, we custom-make storage solutions too! <a href="#footer">Contact us</a> to order a storage solution, or scroll down to the bottom of the website and fill out the contact form in the footer.</p>
+                <div class="slideshow-container">
+                    <div class="slideFive slide fade">
+                      <img src="storage-ideas/image1.png"style="width:100%">
+                    </div>
+                    <div class="slideFive slide fade">
+                      <center><img src="storage-ideas/image3.png" style="width:90%"></center>
+                    </div>
+                    <div class="slideFive slide fade">
+                      <img src="storage-ideas/image2.png" style="width:100%">
+                    </div>
+                    <div class="slideFive slide fade">
+                        <img src="storage-ideas/image4.png" style="width:100%">
+                    </div>
+                    <div class="slideFive slide fade">
+                        <img src="storage-ideas/image5.png" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlidesFive(-1)"><i class="fa-solid fa-caret-left"></i></a>
+                    <a class="next" onclick="plusSlidesFive(1)"><i class="fa-solid fa-caret-right"></i></a>
+                    <br>
+                    <div class="dots" style="text-align:center">
+                        <span class="dotFive dot" onclick="currentSlideFive(1)"></span>
+                        <span class="dotFive dot" onclick="currentSlideFive(2)"></span>
+                        <span class="dotFive dot" onclick="currentSlideFive(3)"></span>
+                        <span class="dotFive dot" onclick="currentSlideFive(4)"></span>
+                        <span class="dotFive dot" onclick="currentSlideFive(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div id="footer" style="height: 50px;"></div>
+    <section class="footer-section">
+        <center><a href="mailto:tayfun.ozbaki@hotmail.com"><button>CONTACT US</button></a></center>
+        <div class="contact-info">
+            <p><i class="fa-solid fa-phone"></i> &nbsp;&nbsp; (920) 912-1700</p>
+            <p><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp; <a href="mailto:tayfun.ozbaki@hotmail.com">tayfun.ozbaki@hotmail.com</a></p>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <h2>MEET THE MAN RESPONSIBLE!</h2>
+                <div class="details">
+                    <div class="details-image">
+                        <img src="tayfunpic.png" alt="Tayfun Ozabki">
+                    </div>
+                    <div class="details-description">
+                        <p>Tayfun Ozbaki is a dedicated woodworker with a background in electrical engineering from Purdue University. His passion for crafting extends to his thriving presence on Etsy, where he has achieved star seller status. Renowned for producing handmade, high-quality wooden products, Tayfun's creations range from intricately designed Airstream furniture to unique home decor pieces. His work not only reflects a meticulous approach to woodworking but also showcases the seamless integration of engineering precision into the world of handcrafted goods.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <form action="https://api.web3forms.com/submit" method="POST" class="form-elements" id="contactForm">
+                    <fieldset>
+                        <legend>CONTACT US</legend>
+                        <h3>PERSONAL DETAILS</h3>
+                        <input type="hidden" name="access_key" value="6dd5865a-d916-485e-8513-bc7e84e642ac">
+                        <label><input class="name tb" name="name" type="text" placeholder="Name" required/></label>
+                        <div class="personal-details">
+                            <label><input class="email tb" name="email" type="text" placeholder="Email" required/></label>
+                            <label><input class="zip tb" name="zip" type="text" placeholder="Zip Code" required/></label>
+                        </div>
+                        <h3>PROJECT DETAILS</h3>
+                        <label><input class="subject tb" name="subject" type="text" placeholder="Subject" required/></label>
+                        <label><input class="airstream-details tb" name="airstream-details" type="text" placeholder="Airstream Year and Model"/></label>
+                        <label><textarea class="message ta" name="message" cols="60" rows="10" placeholder="How can we help you?" required></textarea></label>
+                        <input class="submit-button" type="submit" value="SUBMIT" id="submitButton">
+                    </fieldset>
+                </form>
+                <div style="display:none" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img src="notextlogo.png" alt="logo">
+            <h2>TOPICSwoodworks</h2>
+        </div>
+        <div class="copyright-notice">
+            <h3>Copyright Notice</h3>
+            <p>All photographs appearing on this site are the property of TOPICSwoodworks. They are protected by U.S. Copyright Laws, and are not to be downloaded or reproduced in any way without the written permission of TOPICSwoodworks. Copyright 2018-2023 Tayfun Ozbaki. All Rights Reserved.</p>
+        </div>
+    </section>
+</body>
+
+<!-- Javascript -->
+<!-- Sticky Navbar -->
+<script>
+document.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 25) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+</script>
+<!-- Icon kit -->
+<script src="https://kit.fontawesome.com/e8dd4725b7.js" crossorigin="anonymous"></script>
+<!-- Carousel -->
+<script>
+var slideIndex = 1;
+showSlidesOne(slideIndex);
+function plusSlidesOne(n) {
+    showSlidesOne(slideIndex += n);
+}
+function currentSlideOne(n) {
+    showSlidesOne(slideIndex = n);
+}
+function showSlidesOne(n) {
+    var i;
+    var slides = document.getElementsByClassName("slideOne");
+    var dots = document.getElementsByClassName("dotOne");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+
+var slideIndex = 1;
+showSlidesTwo(slideIndex);
+function plusSlidesTwo(n) {
+    showSlidesTwo(slideIndex += n);
+}
+function currentSlideTwo(n) {
+    showSlidesTwo(slideIndex = n);
+}
+function showSlidesTwo(n) {
+    var i;
+    var slides = document.getElementsByClassName("slideTwo");
+    var dots = document.getElementsByClassName("dotTwo");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+
+var slideIndex = 1;
+showSlidesThree(slideIndex);
+function plusSlidesThree(n) {
+    showSlidesThree(slideIndex += n);
+}
+function currentSlideThree(n) {
+    showSlidesThree(slideIndex = n);
+}
+function showSlidesThree(n) {
+    var i;
+    var slides = document.getElementsByClassName("slideThree");
+    var dots = document.getElementsByClassName("dotThree");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+
+var slideIndex = 1;
+plusSlidesFour(slideIndex);
+function plusSlidesFour(n) {
+    showSlidesFour(slideIndex += n);
+}
+function currentSlideFour(n) {
+    showSlidesFour(slideIndex = n);
+}
+function showSlidesFour(n) {
+    var i;
+    var slides = document.getElementsByClassName("slideFour");
+    var dots = document.getElementsByClassName("dotFour");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+
+var slideIndex = 1;
+plusSlidesFive(slideIndex);
+function plusSlidesFive(n) {
+    showSlidesFive(slideIndex += n);
+}
+function currentSlideFive(n) {
+    showSlidesFive(slideIndex = n);
+}
+function showSlidesFive(n) {
+    var i;
+    var slides = document.getElementsByClassName("slideFive");
+    var dots = document.getElementsByClassName("dotFive");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
+</script>
+
+</html>

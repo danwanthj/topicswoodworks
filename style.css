@@ -957,10 +957,10 @@ header.scrolled .shop-page button:hover {
     margin-top: 15px;
 }
 .footer-left .details-description {
-    width: 200px;
     margin: 0;
     padding: 0;
     margin-left: 10px;
+    margin-right: 15px;
     font-size: 16px;
     font-family: var(--twfont);
     line-height: 1.5;
